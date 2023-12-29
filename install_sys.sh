@@ -94,7 +94,7 @@ g
 n
 
 
-+512M
++1024M
 t
 $boot_partition_type
 n
