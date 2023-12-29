@@ -1,1 +1,1 @@
-My personal Arch installer
+# My personal Arch installer :)
