@@ -154,6 +154,4 @@ response=$?
 case $response in
     0) reboot;;
     1) clear;;
-esaccat << EOF
-This is a line
-This is a new line
+esac
