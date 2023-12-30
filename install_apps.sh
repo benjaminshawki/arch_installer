@@ -26,6 +26,7 @@ apps=("essential" "Essentials" on
       "browsers" "Chrome and Firefox" on
       "js" "JavaScript tooling" on
       "documents" "Documents tools" on
+)
 
 dialog --checklist \
 "You can now choose what group of application you want to install. \n\n\
