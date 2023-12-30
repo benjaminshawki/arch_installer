@@ -23,7 +23,7 @@ apps=("essential" "Essentials" on
       "zsh" "The Z-Shell (zsh)" on
       "neovim" "Neovim" on
       "alacritty" "Alacritty" on
-      "google-chrome" "Google Chrome" on
+      "browsers" "Chrome and Firefox" on
       "js" "JavaScript tooling" on
       "documents" "Documents tools" on
 

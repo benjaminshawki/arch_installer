@@ -37,7 +37,8 @@ neovim,nodejs-neovim,Nodejs for neovim (AUR)
 js,nodejs,Nodejs (for coc.vim)
 js,yarn,Dependency manager (for coc.vim)
 alacritty,alacritty,Terminal Alacritty
-google-chrome,google-chrome,Browser Google Chrome
+browsers,google-chrome,Browser Google Chrome
+browsers,firefox,Browser Firefox
 documents,zathura,Document viewer
 documents,zathura-pdf-mupdf,PDF support for zathura
 documents,texlive-basic,TeX Live core distribution
