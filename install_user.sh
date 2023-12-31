@@ -54,6 +54,7 @@ source "$DOTFILES/zsh/.zshenv"
 
 # Some trickery with the .gitmodules file to make sure the submodules are installed.
 
+cd "$DOTFILES"
 # Backup the original .gitmodules file
 cp "$DOTFILES/.gitmodules" "$DOTFILES/.gitmodules_backup"
 
@@ -66,7 +67,7 @@ git submodule sync
 # Initialize and update the submodules
 git submodule update --init --recursive
 
-cd "$DOTFILES" && bash install.sh
+bash install.sh
 
 # Restore the original .gitmodules file
 mv "$DOTFILES/.gitmodules_backup" "$DOTFILES/.gitmodules"
