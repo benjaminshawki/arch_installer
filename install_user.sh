@@ -51,4 +51,27 @@ if [ ! -d "$DOTFILES" ]; then
 fi
 
 source "$DOTFILES/zsh/.zshenv"
+
+# Some trickery with the .gitmodules file to make sure the submodules are installed.
+
+# Backup the original .gitmodules file
+cp .gitmodules .gitmodules_backup
+
+# Replace SSH URLs with HTTPS URLs in .gitmodules
+sed -i 's/git@github.com:/https:\/\/github.com\//g' .gitmodules
+
+# Sync the submodule URLs to the updated .gitmodules
+git submodule sync
+
+# Initialize and update the submodules
+git submodule update --init --recursive
+
 cd "$DOTFILES" && bash install.sh
+
+# Restore the original .gitmodules file
+mv .gitmodules_backup .gitmodules
+
+# Sync back to the original SSH URLs
+git submodule sync
+
+
