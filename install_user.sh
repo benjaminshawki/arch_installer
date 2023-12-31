@@ -56,16 +56,17 @@ source "$DOTFILES/zsh/.zshenv"
 
 cd "$DOTFILES"
 # Backup the original .gitmodules file
-cp "$DOTFILES/.gitmodules" "$DOTFILES/.gitmodules_backup"
+mv "$DOTFILES/.gitmodules" "$DOTFILES/.gitmodules_backup"
 
+git submodule update --init --recursive nvim
 # Replace SSH URLs with HTTPS URLs in .gitmodules
-sed -i 's/git@github.com:/https:\/\/github.com\//g' "$DOTFILES/.gitmodules"
+#sed -i 's/git@github.com:/https:\/\/github.com\//g' "$DOTFILES/.gitmodules"
 
 # Sync the submodule URLs to the updated .gitmodules
-git submodule sync
+#git submodule sync
 
 # Initialize and update the submodules
-git submodule update --init --recursive
+#git submodule update --init --recursive
 
 bash install.sh
 
