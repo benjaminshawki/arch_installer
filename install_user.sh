@@ -55,10 +55,10 @@ source "$DOTFILES/zsh/.zshenv"
 # Some trickery with the .gitmodules file to make sure the submodules are installed.
 
 # Backup the original .gitmodules file
-cp .gitmodules .gitmodules_backup
+cp "$DOTFILES/.gitmodules" "$DOTFILES/.gitmodules_backup"
 
 # Replace SSH URLs with HTTPS URLs in .gitmodules
-sed -i 's/git@github.com:/https:\/\/github.com\//g' .gitmodules
+sed -i 's/git@github.com:/https:\/\/github.com\//g' "$DOTFILES/.gitmodules"
 
 # Sync the submodule URLs to the updated .gitmodules
 git submodule sync
@@ -69,7 +69,7 @@ git submodule update --init --recursive
 cd "$DOTFILES" && bash install.sh
 
 # Restore the original .gitmodules file
-mv .gitmodules_backup .gitmodules
+mv "$DOTFILES/.gitmodules_backup" "$DOTFILES/.gitmodules"
 
 # Sync back to the original SSH URLs
 git submodule sync
