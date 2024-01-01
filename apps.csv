@@ -48,3 +48,4 @@ virtualisation,virt-viewer,Virtual machine viewer
 virtualisation,dnsmasq,A lightweight DHCP and caching DNS server
 virtualisation,vde2,Virtual Distributed Ethernet
 virtualisation,bridge-utils,Ethernet bridge administration
+virtualisation,openbsd-netcat,Networking utility
