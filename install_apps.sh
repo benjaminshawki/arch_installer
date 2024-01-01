@@ -26,6 +26,7 @@ apps=("essential" "Essentials" on
       "browsers" "Chrome and Firefox" on
       "js" "JavaScript tooling" on
       "documents" "Documents tools" on
+      "virtualization" "Virtualization tools" on
 )
 
 dialog --checklist \
