@@ -42,6 +42,7 @@ browsers,firefox,Browser Firefox
 documents,zathura,Document viewer
 documents,zathura-pdf-mupdf,PDF support for zathura
 documents,texlive-basic,TeX Live core distribution
+documents,libreoffice-fresh,LibreOffice
 virtualisation,qemu,generic and open source machine emulator and virtualizer
 virtualisation,virt-manager,Desktop user interface for managing virtual machines
 virtualisation,virt-viewer,Virtual machine viewer
