@@ -43,6 +43,8 @@ documents,zathura,Document viewer
 documents,zathura-pdf-mupdf,PDF support for zathura
 documents,texlive-basic,TeX Live core distribution
 documents,libreoffice-fresh,LibreOffice
+documents,texlive-fontsextra,TeX Live fontsextra
+documents,texlive-latexextra,TeX Live latexextra
 virtualisation,qemu,generic and open source machine emulator and virtualizer
 virtualisation,virt-manager,Desktop user interface for managing virtual machines
 virtualisation,virt-viewer,Virtual machine viewer
