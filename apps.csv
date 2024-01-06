@@ -60,3 +60,4 @@ virtualisation,openbsd-netcat,Networking utility
 virtualisation,ebtables,Ethernet bridge filtering utilities
 virtualisation,iptables-nft,Administration tools for packet filtering and NAT
 virtualisation,libguestfs,Tools for accessing, inspect and modifying virtual machine (VM) disk images
+database,postgresql,Database PostgreSQL

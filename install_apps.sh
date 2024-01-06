@@ -28,6 +28,7 @@ apps=("essential" "Essentials" on
       "js" "JavaScript tooling" on
       "documents" "Documents tools" on
       "virtualization" "Virtualization tools" on
+      "database" "Database tools" on
 )
 
 dialog --checklist \
