@@ -18,6 +18,10 @@ tmux,tmux,Terminal multiplexer
 tmux,tmuxp,Configure tmux session + windows + panes via config files
 notifier,dunst,Notification system
 notifier,libnotify,Notifier
+audio,pulseaudio,Sound server
+audio,pulseaudio-alsa,ALSA configuration for pulseaudio
+audio,pavucontrol,Audio mixer
+audio,playerctl,Media player controller
 git,git,Version control system
 git,diff-so-fancy,Human readable git diff
 i3,i3-wm,i3 window tile manager
