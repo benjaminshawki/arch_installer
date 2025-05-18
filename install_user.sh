@@ -46,34 +46,8 @@ done
 DOTFILES="/home/$(whoami)/dotfiles"
 if [ ! -d "$DOTFILES" ]; then
     # Don't forget to replace benjaminshawki with your own username on Github
-    git clone https://github.com/benjaminshawki/dotfiles.git \
+    git clone --recurse-submodules https://github.com/benjaminshawki/dotfiles.git \
     "$DOTFILES" >/dev/null
 fi
 
 source "$DOTFILES/zsh/.zshenv"
-
-# Some trickery with the .gitmodules file to make sure the submodules are installed.
-
-cd "$DOTFILES"
-# Backup the original .gitmodules file
-mv "$DOTFILES/.gitmodules" "$DOTFILES/.gitmodules_backup"
-
-git submodule update --init --recursive nvim
-# Replace SSH URLs with HTTPS URLs in .gitmodules
-#sed -i 's/git@github.com:/https:\/\/github.com\//g' "$DOTFILES/.gitmodules"
-
-# Sync the submodule URLs to the updated .gitmodules
-#git submodule sync
-
-# Initialize and update the submodules
-#git submodule update --init --recursive
-
-bash install.sh
-
-# Restore the original .gitmodules file
-mv "$DOTFILES/.gitmodules_backup" "$DOTFILES/.gitmodules"
-
-# Sync back to the original SSH URLs
-git submodule sync
-
-

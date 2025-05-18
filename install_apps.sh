@@ -14,21 +14,43 @@ dialog --title "Welcome!" \
 
 # Allow the user to select the group of packages they wish to install.
 apps=("essential" "Essentials" on
-      "network" "Network" on
-      "tools" "Nice tools to have (highly recommended)" on
+      "network" "Network & Security" on
+      "tools" "Command line tools" on
       "tmux" "Tmux" on
       "notifier" "Notification tools" on
       "git" "Git & git tools" on
-      "audio" "Audio tools" on
-      "i3" "i3 wm" on
+      "audio" "Audio tools (PipeWire)" on
+      "wayland" "Wayland + Sway" on
       "zsh" "The Z-Shell (zsh)" on
       "neovim" "Neovim" on
-      "alacritty" "Alacritty" on
-      "browsers" "Chrome and Firefox" on
-      "js" "JavaScript tooling" on
-      "documents" "Documents tools" on
-      "virtualization" "Virtualization tools" on
-      "database" "Database tools" on
+      "alacritty" "Alacritty terminal" on
+      "fonts" "Programming fonts" on
+      "browsers" "Web browsers" on
+      "documents" "Document tools" on
+      "virtualization" "Virtualization & Containers" off
+      "python" "Python development" on
+      "rust" "Rust development" off
+      "java" "Java development" off
+      "php" "PHP development" off
+      "mobile" "Mobile development" off
+      "database" "Database tools" off
+      "monitoring" "System monitoring" on
+      "password" "Password managers" on
+      "development" "IDEs & Editors" off
+      "media" "Audio/Video production" off
+      "communication" "Chat & Video apps" off
+      "system" "System utilities" on
+      "graphics" "Graphics & GPU" off
+      "embedded" "Embedded development" off
+      "image" "Image editing" off
+      "build" "Build tools" off
+      "debug" "Debugging & Profiling" off
+      "lsp" "Language servers" on
+      "gaming" "Gaming & 32-bit libs" off
+      "filesystem" "Filesystem tools" on
+      "diagram" "Diagramming tools" off
+      "crypt" "Encryption tools" off
+      "backup" "Backup tools" off
 )
 
 dialog --checklist \

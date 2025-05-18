@@ -1,0 +1,119 @@
+# Additional packages to add to apps.csv
+# Format: category,package,description
+
+# Password managers
+password,1password,1Password password manager
+password,1password-cli,1Password CLI tool
+password,pass,Standard Unix password manager
+
+# Development - IDE/Editors
+development,code,Visual Studio Code
+development,android-studio,Android development IDE
+
+# Development - Language specific
+java,google-java-format,Google Java formatter
+java,checkstyle,Java code style checker
+java,maven,Java build tool
+php,php,PHP programming language
+php,composer,PHP dependency manager
+php,phpactor,PHP language server
+php,php-gd,PHP GD graphics library
+php,phpmyadmin,MySQL administration tool
+
+# Mobile development
+mobile,android-platform,Android platform SDK
+mobile,android-sdk,Android SDK
+mobile,android-sdk-build-tools,Android build tools
+mobile,android-sdk-cmdline-tools-latest,Android command line tools
+mobile,android-sdk-platform-tools,Android platform tools
+mobile,android-tools,Android tools
+mobile,android-udev,Android udev rules
+mobile,flutter,Flutter SDK for mobile development
+
+# System monitoring
+monitoring,acpi,ACPI information tool
+monitoring,htop,Interactive process viewer
+monitoring,btop,Beautiful process monitor
+monitoring,ncdu,NCurses disk usage analyzer
+monitoring,hwinfo,Hardware information tool
+monitoring,lm_sensors,Hardware monitoring
+monitoring,smartmontools,SMART disk monitoring
+
+# Networking tools
+network,nmap,Network exploration tool
+network,arp-scan,ARP scanning tool
+network,aircrack-ng,WiFi security testing
+network,httpie,CLI HTTP client
+network,bind,DNS server and tools
+network,net-tools,Network tools (ifconfig, etc)
+network,networkmanager-openvpn,OpenVPN NetworkManager plugin
+network,wireshark-qt,Network protocol analyzer
+
+# Virtualization & Containers
+virtualization,virt-viewer,Virtual machine viewer
+virtualization,guestfs-tools,Guest filesystem tools
+virtualization,dnsmasq,DHCP and DNS server
+virtualization,bridge-utils,Network bridge utilities
+virtualization,ebtables,Ethernet bridge filtering
+virtualization,wine,Windows compatibility layer
+
+# Audio/Video production
+media,ardour,Digital Audio Workstation
+media,obs-studio,Video recording and streaming
+media,kdenlive,Video editor
+media,mpv,Media player
+media,vlc,VLC media player
+
+# Communication
+communication,discord,Discord chat client
+communication,discord-canary,Discord Canary
+communication,element-desktop,Matrix client
+communication,zoom,Zoom video conferencing
+communication,slack-desktop,Slack desktop client
+
+# System utilities
+system,brightnessctl,Screen brightness control
+system,bluez,Bluetooth stack
+system,bluez-utils,Bluetooth utilities
+system,grub,GRUB bootloader
+system,efibootmgr,EFI boot manager
+system,dosfstools,DOS filesystem tools
+system,ntfs-3g,NTFS filesystem support
+system,exfat-utils,exFAT filesystem tools
+
+# Graphics and GPU
+graphics,vulkan-radeon,Vulkan driver for AMD
+graphics,vulkan-tools,Vulkan tools
+graphics,amdvlk,AMD Vulkan driver
+graphics,mesa,OpenGL implementation
+
+# Embedded development
+embedded,arm-none-eabi-gcc,ARM GCC toolchain
+embedded,arm-none-eabi-gdb,ARM GDB debugger
+embedded,arm-none-eabi-newlib,ARM C library
+embedded,dfu-util,DFU programmer
+embedded,stlink,STLink programmer
+
+# Image editing
+image,gimp,GNU Image Manipulation Program
+image,inkscape,Vector graphics editor
+image,krita,Digital painting application
+image,imagemagick,Image manipulation tools
+
+# Build tools
+build,ccache,Compiler cache
+build,cmake,Cross-platform build system
+build,meson,Build system
+build,bear,Build EAR - compilation database
+
+# Debugging/Profiling
+debug,gdb,GNU debugger
+debug,valgrind,Memory error detector
+debug,strace,System call tracer
+debug,ltrace,Library call tracer
+
+# Language servers
+lsp,ccls,C/C++ language server
+lsp,clangd,Clang language server
+lsp,rust-analyzer,Rust language server
+lsp,pyright,Python language server

@@ -1,64 +1,250 @@
-essential,xorg,X server
-essential,xorg-xinit,Display server boot
-essential,man,Manual
-essential,man-pages,Manual pages
-network,openssh,Remote login tool for SSH protocol
-network,networkmanager,Network manager
-tools,rsync,Synchronizing files across computers
-tools,arandr,xrandr GUI
-tools,xsel,Manipulate the X selection
-tools,fzf,Command line fuzzy finder
-tools,scrot,Screenshot software
-tools,udiskie,Automount devices
-tools,lxappearance,Theme switcher for GTK+
-tools,xcape,Configure modifier keys to act as other keys
-tools,ripgrep,Faster alternative to grep
-tools,htop,Interactive process viewer
-tools,ranger,File manager
-tmux,tmux,Terminal multiplexer
-tmux,tmuxp,Configure tmux session + windows + panes via config files
-notifier,dunst,Notification system
-notifier,libnotify,Notifier
-audio,pulseaudio,Sound server
-audio,pulseaudio-alsa,ALSA configuration for pulseaudio
-audio,pavucontrol,Audio mixer
+
+alacritty,alacritty,GPU-accelerated terminal
+alacritty,ttf-inconsolata,Inconsolata font
+audio,pavucontrol,Audio control GUI
+audio,pipewire-alsa,PipeWire ALSA integration
+audio,pipewire-jack,PipeWire JACK integration
+audio,pipewire,Modern audio server
+audio,pipewire-pulse,PipeWire PulseAudio integration
 audio,playerctl,Media player controller
-git,git,Version control system
-git,diff-so-fancy,Human readable git diff
-i3,i3-wm,i3 window tile manager
-i3,i3status,i3 status bar
-i3,i3lock,i3 lock monitor
-i3,dmenu,Dynamic menu for X
-i3,feh,X11 image viewer
-i3,arc-gtk-theme,Desktop themes
-zsh,zsh,Unix shell (Z-Shell)
-zsh,zsh-completions,Additional completions for Zsh
-zsh,zsh-syntax-highlighting,Syntax highlighting for ZSH
-neovim,neovim,Editor... and much more
-neovim,python-neovim,Python for neovim
-neovim,python2-neovim,Python2 for neovim (AUR)
-neovim,ruby-neovim,Ruby for neovim (AUR)
-neovim,nodejs-neovim,Nodejs for neovim (AUR)
-js,nodejs,Nodejs (for coc.vim)
-js,yarn,Dependency manager (for coc.vim)
-alacritty,alacritty,Terminal Alacritty
-browsers,google-chrome,Browser Google Chrome
-browsers,firefox,Browser Firefox
+audio,wireplumber,PipeWire session manager
+browsers,firefox,Firefox browser
+build,bear,Build EAR - compilation database
+build,ccache,Compiler cache
+build,cmake,Cross-platform build system
+build,meson,Build system
+communication,discord-canary,Discord Canary
+communication,discord-canary,Discord Canary client (AUR)
+communication,discord,Discord chat client
+communication,discord-screenaudio,Discord with screen audio (AUR)
+communication,element-desktop,Matrix client
+communication,slack-desktop,Slack desktop client
+communication,zoom,Zoom video conferencing
+database,mariadb,MariaDB database
+database,postgresql,PostgreSQL database
+debug,gdb,GNU debugger
+debug,ltrace,Library call tracer
+debug,strace,System call tracer
+debug,valgrind,Memory error detector
+development,android-platform,Android platform SDK (AUR)
+development,android-sdk,Android SDK (AUR) 
+development,android-sdk-build-tools,Android build tools (AUR)
+development,android-sdk-cmdline-tools-latest,Android command line tools (AUR)
+development,android-sdk-platform-tools,Android platform tools (AUR)
+development,android-studio,Android development IDE
+development,checkstyle,Java code style checker (AUR)
+development,claude-code,Claude AI coding assistant (AUR)
+development,code,Visual Studio Code
+development,flutter,Flutter SDK (AUR)
+development,intellij-idea-ultimate-edition,IntelliJ IDEA (AUR)
+development,nodejs-neovim,Neovim Node.js support (AUR)
+development,phpstorm,PHPStorm IDE (AUR)
+development,ruby-neovim,Neovim Ruby support (AUR)
+diagram,drawio-desktop-bin,Draw.io desktop app (AUR)
 documents,zathura,Document viewer
 documents,zathura-pdf-mupdf,PDF support for zathura
-documents,texlive-basic,TeX Live core distribution
-documents,libreoffice-fresh,LibreOffice
-documents,texlive-fontsextra,TeX Live fontsextra
-documents,texlive-latexextra,TeX Live latexextra
-documents,pandoc-crossref,Pandoc filter for cross-references
-virtualisation,qemu,generic and open source machine emulator and virtualizer
-virtualisation,virt-manager,Desktop user interface for managing virtual machines
-virtualisation,virt-viewer,Virtual machine viewer
-virtualisation,dnsmasq,A lightweight DHCP and caching DNS server
-virtualisation,vde2,Virtual Distributed Ethernet
-virtualisation,bridge-utils,Ethernet bridge administration
-virtualisation,openbsd-netcat,Networking utility
-virtualisation,ebtables,Ethernet bridge filtering utilities
-virtualisation,iptables-nft,Administration tools for packet filtering and NAT
-virtualisation,libguestfs,Tools for accessing, inspect and modifying virtual machine (VM) disk images
-database,postgresql,Database PostgreSQL
+embedded,arm-none-eabi-gcc,ARM GCC toolchain
+embedded,arm-none-eabi-gdb,ARM GDB debugger
+embedded,arm-none-eabi-newlib,ARM C library
+embedded,dfu-util,DFU programmer
+embedded,stlink,STLink programmer
+essential,base-devel,Basic development tools
+essential,git,Version control system
+essential,linux-headers,Linux kernel headers
+essential,man-db,Manual database tools
+essential,man-pages,Manual pages
+essential,xorg-server,X server core
+essential,xorg-xinit,Display server boot
+essential,xorg,X server
+fonts,nerd-fonts-complete,Complete Nerd Fonts (AUR)
+fonts,noto-fonts-emoji,Emoji fonts
+fonts,noto-fonts,Google Noto fonts
+fonts,ttf-fira-code,Fira Code programming font
+fonts,ttf-font-awesome,Icon font
+fonts,ttf-jetbrains-mono,JetBrains Mono font
+fonts,ttf-liberation,Liberation fonts
+git,git-delta,Syntax highlighting pager for git
+git,git,Version control system
+git,lazygit,Terminal UI for git
+graphics,amdvlk,AMD Vulkan driver
+graphics,mesa,OpenGL implementation
+graphics,vulkan-radeon,Vulkan driver for AMD
+graphics,vulkan-tools,Vulkan tools
+image,cropgui,GTK GUI for lossless cropping (AUR)
+image,gimp,GNU Image Manipulation Program
+image,imagemagick,Image manipulation tools
+image,inkscape,Vector graphics editor
+image,krita,Digital painting application
+java,checkstyle,Java code style checker
+java,google-java-format,Google Java formatter
+java,maven,Java build tool
+lsp,ccls,C/C++ language server
+lsp,clangd,Clang language server
+lsp,pyright,Python language server
+lsp,rust-analyzer,Rust language server
+media,ardour,Digital Audio Workstation
+media,kdenlive,Video editor
+media,mpv,Media player
+media,obs-studio,Video recording and streaming
+media,vlc,VLC media player
+mobile,android-platform,Android platform SDK
+mobile,android-sdk,Android SDK
+mobile,android-sdk-build-tools,Android build tools
+mobile,android-sdk-cmdline-tools-latest,Android command line tools
+mobile,android-sdk-platform-tools,Android platform tools
+mobile,android-tools,Android tools
+mobile,android-udev,Android udev rules
+mobile,flutter,Flutter SDK for mobile development
+monitoring,acpi,ACPI information tool
+monitoring,btop,Beautiful process monitor
+monitoring,htop,Interactive process viewer
+monitoring,hwinfo,Hardware information tool
+monitoring,lm_sensors,Hardware monitoring
+monitoring,ncdu,NCurses disk usage analyzer
+monitoring,smartmontools,SMART disk monitoring
+monitoring,sysstat,System performance tools
+neovim,neovim,Modern Vim fork
+neovim,npm,Node package manager for Neovim plugins
+neovim,python-pynvim,Python support for Neovim
+neovim,tree-sitter,Parser generator tool
+network,aircrack-ng,WiFi security testing
+network,arp-scan,ARP scanning tool
+network,bind,DNS server and tools
+network,httpie,CLI HTTP client
+network,net-tools,Network tools (ifconfig, etc)
+network,network-manager-applet,NetworkManager GUI
+network,networkmanager,Network manager
+network,networkmanager-openvpn,OpenVPN NetworkManager plugin
+network,nmap,Network exploration tool
+network,openssh,Remote login tool for SSH protocol
+network,wireshark-qt,Network protocol analyzer
+notifier,dunst,Notification system
+notifier,libnotify,Notification library
+password,1password,1Password password manager
+password,1password,1Password password manager (AUR)
+password,1password-cli,1Password CLI tool
+password,1password-cli,1Password CLI tool (AUR)
+password,docker-credential-pass,Docker credential helper (AUR)
+password,pass,Standard Unix password manager
+php,composer,PHP dependency manager
+php,phpactor,PHP language server
+php,php-gd,PHP GD graphics library
+php,phpmyadmin,MySQL administration tool
+php,php,PHP programming language
+python,python-pip,Python package manager
+python,python,Python interpreter
+python,python-virtualenv,Python virtual environments
+rust,cargo,Rust package manager
+rust,rust,Rust programming language
+system,aic94xx-firmware,Adaptec firmware (AUR)
+system,ast-firmware,AST graphics firmware (AUR)
+system,bluez,Bluetooth stack
+system,bluez-utils,Bluetooth utilities
+system,brightnessctl,Screen brightness control
+system,ddcui,DDC monitor control GUI (AUR)
+system,dosfstools,DOS filesystem tools
+system,efibootmgr,EFI boot manager
+system,exfat-utils,exFAT filesystem tools
+system,firmware-manager,System76 firmware manager (AUR)
+system,grub,GRUB bootloader
+system,ntfs-3g,NTFS filesystem support
+system,wd719x-firmware,WD firmware (AUR)
+tmux,tmuxp,Tmux session manager
+tmux,tmux,Terminal multiplexer
+tools,bat,Cat clone with syntax highlighting
+tools,btop,Beautiful process monitor
+tools,curl,Transfer data from URLs
+tools,fd,Simple fast alternative to find
+tools,fzf,Command line fuzzy finder
+tools,htop,Interactive process viewer
+tools,jq,JSON processor
+tools,neofetch,System information tool
+tools,p7zip,7zip file archiver
+tools,ranger,File manager
+tools,ripgrep,Faster alternative to grep
+tools,rsync,Synchronizing files across computers
+tools,spotify,Spotify music client (AUR)
+tools,tldr,Simplified man pages
+tools,tree,Directory listing in tree format
+tools,unzip,Extract zip archives
+tools,visual-studio-code-bin,VS Code binary (AUR)
+tools,wget,Network downloader
+tools,which,Show full path of commands
+tools,zip,Create zip archives
+video,zoom,Zoom video conferencing (AUR)
+virtualization,bridge-utils,Network bridge utilities
+virtualization,dnsmasq,DHCP and DNS server
+virtualization,docker-compose,Docker compose tool
+virtualization,docker,Container platform
+virtualization,ebtables,Ethernet bridge filtering
+virtualization,guestfs-tools,Guest filesystem tools
+virtualization,libvirt,Virtualization API
+virtualization,qemu-full,QEMU virtual machine
+virtualization,virt-manager,Virtual machine manager
+virtualization,virt-viewer,Virtual machine viewer
+virtualization,wine,Windows compatibility layer
+wayland,grim,Wayland screenshot
+wayland,kanshi,Wayland display configuration
+wayland,slurp,Wayland region selector
+wayland,swaybg,Wayland wallpaper
+wayland,swayidle,Wayland idle manager
+wayland,swaylock,Wayland lock screen
+wayland,sway,Wayland window manager
+wayland,waybar,Wayland bar
+wayland,wayvnc,VNC server for Wayland
+wayland,wf-recorder,Wayland screen recorder
+wayland,wl-clipboard,Wayland clipboard utilities
+wayland,wlr-randr,Wayland randr replacement
+wayland,wofi,Wayland launcher
+wayland,xdg-desktop-portal-wlr,Wayland desktop portal
+wayland,xwayland,X11 compatibility layer
+zsh,zsh-autosuggestions,Fish-like autosuggestions
+zsh,zsh-completions,Additional completions for Zsh
+zsh,zsh-syntax-highlighting,Syntax highlighting for ZSH
+zsh,zsh,Z shell
+gaming,lib32-glew,32-bit GLEW library
+gaming,lib32-libcurl-gnutls,32-bit curl library
+gaming,lib32-libgudev,32-bit gudev library
+gaming,lib32-libpng12,32-bit PNG library v1.2
+gaming,lib32-libpulse,32-bit PulseAudio library
+gaming,lib32-libudev0-shim,32-bit udev compatibility
+gaming,lib32-libva,32-bit VA-API library
+gaming,lib32-libvdpau,32-bit VDPAU library
+gaming,lib32-pipewire,32-bit PipeWire library
+gaming,lib32-vulkan-radeon,32-bit Vulkan AMD driver
+gaming,steam,Steam gaming platform
+gaming,wine-staging,Wine staging branch
+gaming,lutris,Gaming platform
+
+system,apparmor,Application security framework
+system,base,Arch Linux base system
+system,chrony,NTP daemon
+system,udev,Device manager
+system,polkit,Authorization framework
+system,lsof,List open files
+system,sysstat,System performance tools
+system,acpid,ACPI event daemon
+
+filesystem,nfs-utils,NFS utilities
+filesystem,sshfs,SSH filesystem
+filesystem,jmtpfs,MTP filesystem
+filesystem,mtpfs,MTP filesystem
+
+development,clang,C/C++ compiler
+development,llvm,Compiler infrastructure
+development,gdb,GNU Debugger
+development,perf,Performance analysis tools
+development,ninja,Small build system
+development,go,Go programming language
+development,rustup,Rust toolchain installer
+
+media,spotify,Music streaming client
+media,youtube-dl,YouTube downloader
+media,mpd,Music Player Daemon
+media,ncmpcpp,NCurses MPD client
+
+diagram,diagram-tools,Diagramming tools category
+video,video-tools,Video tools category
+games,gaming-tools,Gaming tools category
+crypt,encryption-tools,Encryption tools category
+backup,backup-tools,Backup tools category

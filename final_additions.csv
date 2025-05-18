@@ -1,0 +1,52 @@
+# Final additions - system libraries and compatibility
+gaming,lib32-glew,32-bit GLEW library
+gaming,lib32-libcurl-gnutls,32-bit curl library
+gaming,lib32-libgudev,32-bit gudev library
+gaming,lib32-libpng12,32-bit PNG library v1.2
+gaming,lib32-libpulse,32-bit PulseAudio library
+gaming,lib32-libudev0-shim,32-bit udev compatibility
+gaming,lib32-libva,32-bit VA-API library
+gaming,lib32-libvdpau,32-bit VDPAU library
+gaming,lib32-pipewire,32-bit PipeWire library
+gaming,lib32-vulkan-radeon,32-bit Vulkan AMD driver
+gaming,steam,Steam gaming platform
+gaming,wine-staging,Wine staging branch
+gaming,lutris,Gaming platform
+
+# Additional system tools
+system,apparmor,Application security framework
+system,base,Arch Linux base system
+system,chrony,NTP daemon
+system,udev,Device manager
+system,polkit,Authorization framework
+system,lsof,List open files
+system,sysstat,System performance tools
+system,acpid,ACPI event daemon
+
+# File systems
+filesystem,nfs-utils,NFS utilities
+filesystem,sshfs,SSH filesystem
+filesystem,jmtpfs,MTP filesystem
+filesystem,mtpfs,MTP filesystem
+
+# Additional development
+development,clang,C/C++ compiler
+development,llvm,Compiler infrastructure
+development,gdb,GNU Debugger
+development,perf,Performance analysis tools
+development,ninja,Small build system
+development,go,Go programming language
+development,rustup,Rust toolchain installer
+
+# Entertainment
+media,spotify,Music streaming client
+media,youtube-dl,YouTube downloader
+media,mpd,Music Player Daemon
+media,ncmpcpp,NCurses MPD client
+
+# Additional AUR packages categories
+diagram,diagram-tools,Diagramming tools category
+video,video-tools,Video tools category
+games,gaming-tools,Gaming tools category
+crypt,encryption-tools,Encryption tools category
+backup,backup-tools,Backup tools category
